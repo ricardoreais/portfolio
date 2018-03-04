@@ -1,0 +1,13 @@
+.bio-title{
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 36.5%;
+  transform: translate(-50%, -50%);
+  font-size: 7.5em;
+  color:#6effb5;
+}
+
+.bio-jumbotron{
+  margin-top: 50em;
+}

@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Header from './components/framework/header/header';
 import Intro from './components/framework/intro/intro';
+import Bio from './components/framework/bio/bio';
 
 var mockName = 'ricardo reais';
 var mockTitle = 'software developer.';
@@ -13,14 +14,16 @@ class App extends Component {
     return (
       <div className="App">
         <Header name={mockName}/>
-        <Intro title={mockTitle}/>
-        {/* <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p> */}
+        <div className="row">
+          <div className="col">
+            <Intro title={mockTitle}/>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <Bio/>
+          </div>
+        </div>
       </div>
     );
   }
