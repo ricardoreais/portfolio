@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/framework/header/header';
 import Intro from './components/framework/intro/intro';
 import Bio from './components/framework/bio/bio';
+import Skills from './components/framework/skills/skills';
 
 var mockName = 'ricardo reais';
 var mockTitle = 'software developer.';
@@ -14,16 +15,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header name={mockName}/>
-        <div className="row">
-          <div className="col">
-            <Intro title={mockTitle}/>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-            <Bio/>
-          </div>
-        </div>
+        <Intro title={mockTitle}/>
+        <Bio/>
+        <Skills/>
       </div>
     );
   }

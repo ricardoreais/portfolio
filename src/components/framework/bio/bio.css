@@ -11,3 +11,9 @@
 .bio-jumbotron{
   margin-top: 50em;
 }
+
+hr {
+  margin: 0%;
+  width: 50%;
+  border-top: 2px solid #6effb5;
+}
