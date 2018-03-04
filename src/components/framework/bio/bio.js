@@ -6,7 +6,7 @@ class Bio extends Component {
     return (
       <div className="jumbotron jumbotron-fluid mb-0">
         <div class="container">
-          <h1 className="display-4">about me.</h1>
+          <h1 className="display-4 text-left">about me.</h1>
           <p className="lead text-justify">
             engineer with experience developing. proficient with programming in C# and JavaScript, and adept with problem solving using computers
             ...by the way, I have a passion for design and minimalism.
