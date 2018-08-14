@@ -83,6 +83,7 @@ class Board extends Component {
             {this.renderSquare(7)}
             {this.renderSquare(8)}
           </div>
+          This is just a minigame to test routing. Everything in here is still in development, sorry!
         </div>
       );
     }

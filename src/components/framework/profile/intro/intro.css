@@ -29,7 +29,7 @@
 }
 
 .intro-jumbotron {
-  background: url('../../styles/images/background.jpg') no-repeat center center;
+  background: url('../../../styles/images/background.jpg') no-repeat center center;
   height: 100vh;
   background-size: cover; 
   /* background-size: cover; */

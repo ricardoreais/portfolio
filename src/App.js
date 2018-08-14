@@ -1,24 +1,22 @@
 import React, {Component} from 'react';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
 import Header from './components/framework/header/header';
-import Intro from './components/framework/intro/intro';
-import Bio from './components/framework/bio/bio';
-import Skills from './components/framework/skills/skills';
+import Profile from './components/framework/profile/profile';
 import Game from './components/game/game';
 
-var mockName = 'ricardo reais';
-var mockTitle = 'software developer.';
+var name = 'ricardo reais';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header name={mockName}/>
-        <Intro title={mockTitle}/>
-        <Bio/>
-        <Skills/>
-        <Game />
-      </div>
+      <Router>
+        <div className="App">
+          <Header name={name}/>
+          <Route exact path="/" component={Profile} />
+          <Route path="/tictactoe" component={Game} />
+        </div>
+      </Router>
     );
   }
 }
