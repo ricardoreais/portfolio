@@ -10,7 +10,6 @@ var mockName = 'ricardo reais';
 var mockTitle = 'software developer.';
 
 class App extends Component {
-
   render() {
     return (
       <div className="App">
