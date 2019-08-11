@@ -1,6 +1,6 @@
 # Portfolio static website to try out react
-![screenshot 1](https://imgur.com/a/EEacZZO)
-![screenshot 1](https://imgur.com/a/KBCS73I)
+![screenshot 1](https://i.imgur.com/2U7xDSj.png)
+![screenshot 2](https://i.imgur.com/Xs5Khj8.png)
 
 ## Authors
 
